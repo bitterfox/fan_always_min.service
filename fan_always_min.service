@@ -1,0 +1,10 @@
+[Unit]
+Description = Make fan min always
+
+[Service]
+ExecStart = /opt/fan_always_min
+Restart = always
+Type = simple
+
+[Install]
+WantedBy=multi-user.target
